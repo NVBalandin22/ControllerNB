@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>ControllerNB.Infrastructure</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ControllerNB.DataAccess\ControllerNB.DataAccess.csproj" />
+      <ProjectReference Include="..\ControllerNB.DomainModel\ControllerNB.DomainModel.csproj" />
+      <ProjectReference Include="..\ControllerNB.Interfaces\ControllerNB.Interfaces.csproj" />
+    </ItemGroup>
+
+</Project>
